@@ -1,6 +1,7 @@
 // DESCRIPTION:
 // Create a function that takes an integer as an argument and returns "Even" for even numbers or "Odd" for odd numbers.
-
+// 5 => "Odd"
+// 4 => "Even"
 
 //Solution
 function evenOrOdd(number) {
@@ -11,3 +12,4 @@ function evenOrOdd(number) {
     return 'Odd'
   }
 }
+console.log('solution: ', evenOrOdd(4) )
