@@ -12,4 +12,4 @@ function evenOrOdd(number) {
     return 'Odd'
   }
 }
-console.log('solution: ', evenOrOdd(4) )
+console.log('solution: ', evenOrOdd(4))
