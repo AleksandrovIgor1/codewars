@@ -3,13 +3,13 @@
 // 5 => "Odd"
 // 4 => "Even"
 
-//Solution
+// SOLUTION:
 function evenOrOdd(number) {
   if(number % 2 === 0) {
-    return 'Even'
+    return 'Even';
   }
   else {
-    return 'Odd'
+    return 'Odd';
   }
-}
-console.log('solution: ', evenOrOdd(4))
+};
+console.log('solution: ', evenOrOdd(4));

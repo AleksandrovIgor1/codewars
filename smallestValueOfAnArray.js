@@ -6,8 +6,8 @@
 // min([1,2,3,4,5], 'value') // => 1
 // min([1,2,3,4,5], 'index') // => 0
 
-// Solution
-function min(arr, toReturn) {
+// SOLUTION:
+function smallestValueOfAnArray(arr, toReturn) {
 	const minimum = Math.min(...arr);
 	if (toReturn == "value") {
 			return minimum;
@@ -15,6 +15,6 @@ function min(arr, toReturn) {
 	else if (toReturn == "index") {
 			return arr.indexOf(minimum);
 	}
-}
+};
 
-console.log('solution: ', min([1,2,3,4,5], 'value'))
+console.log('solution: ', smallestValueOfAnArray([1,2,3,4,5], 'value'));
