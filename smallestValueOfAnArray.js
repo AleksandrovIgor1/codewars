@@ -7,14 +7,8 @@
 // min([1,2,3,4,5], 'index') // => 0
 
 // SOLUTION:
-function smallestValueOfAnArray(arr, toReturn) {
-	const minimum = Math.min(...arr);
-	if (toReturn == "value") {
-			return minimum;
-	}
-	else if (toReturn == "index") {
-			return arr.indexOf(minimum);
-	}
+function min(arr, toReturn) {
+	const minCount = Math.min(...arr);
+	return toReturn == 'value' ? minCount : arr.indexOf(minCount);
 };
-
-console.log('solution: ', smallestValueOfAnArray([1,2,3,4,5], 'value'));
+console.log('solution: ', min([1,2,3,4,5], 'value'));
